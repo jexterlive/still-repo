@@ -4,4 +4,10 @@ Public download location for the permanently signed Still Android provisioning A
 
 The repository contains no signing keys, passwords, policy keys, or user data.
 
-The APK is assembled by GitHub Actions from temporary upload chunks, verified against SHA-256 `FE5B640A1A24A4543FBF416F823EF1AF6826CF842A4D48F685786934802EE930`, and then published as `Still-0.1.0-android17.apk`.
+## Current provisioning release
+
+- APK: `Still-0.1.1-android17.apk`
+- SHA-256: `D12F824AAA8C1A8219DCDB58E50F7A90DA5B1CD9232252BA8D51C62B9454D50E`
+- Signing certificate SHA-256: `17B619D0C418732F8703AA3328EEB8377262963923F973D50A370C55CA97FAD1`
+
+Version 0.1.1 adds the Android 12–17 provisioning-mode and policy-compliance callbacks required for QR Device Owner enrollment. Version 0.1.0 is retained only as release history and should not be used for provisioning.
