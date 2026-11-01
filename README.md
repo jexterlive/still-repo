@@ -6,8 +6,8 @@ The repository contains no signing keys, passwords, policy keys, or user data.
 
 ## Current provisioning release
 
-- APK: `Still-0.1.1-android17.apk`
-- SHA-256: `D12F824AAA8C1A8219DCDB58E50F7A90DA5B1CD9232252BA8D51C62B9454D50E`
+- APK: `Still-0.1.3-android17.apk`
+- SHA-256: `B2C22C8B2632FA9E5D1595B94CAE4FC05CB39B2465B3D9F88A001EEBB57A44D0`
 - Signing certificate SHA-256: `17B619D0C418732F8703AA3328EEB8377262963923F973D50A370C55CA97FAD1`
 
-Version 0.1.1 adds the Android 12–17 provisioning-mode and policy-compliance callbacks required for QR Device Owner enrollment. Version 0.1.0 is retained only as release history and should not be used for provisioning.
+Version 0.1.3 includes the Android 12–17 provisioning callbacks, the real-app Still launcher, transactional policy application and rollback, and quarantine for newly installed unapproved apps. Development pause remains enabled for the first physical-device test. Older APKs are retained only as release history and should not be used for provisioning.
